@@ -1,0 +1,16 @@
+[
+  {
+    "id": "001",
+    "libroId": "001",
+    "socioId": "001",
+    "fechaInicio": "2026-01-18",
+    "fechaFin": "2026-01-22"
+  },
+  {
+    "id": "002",
+    "libroId": "002",
+    "socioId": "002",
+    "fechaInicio": "2026-01-19",
+    "fechaFin": "2026-01-21"
+  }
+]

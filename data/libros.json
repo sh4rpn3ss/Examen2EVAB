@@ -1,0 +1,23 @@
+[
+  {
+    "id": "001",
+    "titulo": "Cien años de soledad",
+    "autor": "Gabriel García Márquez",
+    "editorial": "Anagrama",
+    "disponible": false
+  },
+  {
+    "id": "002",
+    "titulo": "El guardián entre el centeno",
+    "autor": "J.D. Salinger",
+    "editorial": "Tusquets",
+    "disponible": false
+  },
+  {
+    "id": "003",
+    "titulo": "Sin noticias de Gurb",
+    "autor": "Eduardo Mendoza",
+    "editorial": "Seix Barral",
+    "disponible": true
+  }
+]

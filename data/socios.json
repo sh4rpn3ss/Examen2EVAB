@@ -1,0 +1,17 @@
+[
+  {
+    "id": "001",
+    "nombre": "Carlos Fernández",
+    "documento": "44444444D"
+  },
+  {
+    "id": "002",
+    "nombre": "Laura Martínez",
+    "documento": "55555555E"
+  },
+  {
+    "id": "003",
+    "nombre": "Javier Sánchez",
+    "documento": "66666666F"
+  }
+]
