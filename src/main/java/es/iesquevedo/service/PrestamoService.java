@@ -15,7 +15,7 @@ public class PrestamoService {
     private final LibroRepository libroRepo;
     private final SocioRepository socioRepo;
 
-    public PrestamoService() {
+    public PrestamoService(PrestamoRepository prestamoRepo, LibroRepository libroRepo, SocioRepository socioRepo) {
         this.prestamoRepo = new PrestamoRepository();
         this.libroRepo = new LibroRepository();
         this.socioRepo = new SocioRepository();

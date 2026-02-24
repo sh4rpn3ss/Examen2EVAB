@@ -1,10 +1,25 @@
 package es.iesquevedo.ui;
 
+import es.iesquevedo.dao.LibroRepository;
+import es.iesquevedo.dao.PrestamoRepository;
+import es.iesquevedo.dao.SocioRepository;
+import es.iesquevedo.service.LibroService;
+import es.iesquevedo.service.PrestamoService;
+import es.iesquevedo.service.SocioService;
+
 import java.util.Scanner;
 
 public class Main {
     private static final Scanner sc = new Scanner(System.in);
-    private static final ConsoleController controller = new ConsoleController(sc);
+    LibroRepository librorepo =new LibroRepository();
+    SocioRepository sociorepo =new SocioRepository();
+    PrestamoRepository prestamorepo =new PrestamoRepository();
+
+    LibroService libroService =new LibroService(librorepo);
+    SocioService socioService =new SocioService(sociorepo);
+    PrestamoService prestamoService =new PrestamoService(prestamorepo,librorepo,sociorepo);
+
+    private static final ConsoleController controller = new ConsoleController(sc,libroService,socioService,prestamoService);
 
     public static void main(String[] args) {
         boolean running = true;

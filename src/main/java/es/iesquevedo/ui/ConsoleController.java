@@ -18,11 +18,11 @@ public class ConsoleController {
     private final SocioService socioService;
     private final PrestamoService prestamoService;
 
-    public ConsoleController(Scanner sc) {
+    public ConsoleController(Scanner sc,LibroService libroService,SocioService socioService,PrestamoService prestamoService) {
         this.sc = sc;
-        this.libroService = new LibroService();
-        this.socioService = new SocioService();
-        this.prestamoService = new PrestamoService();
+        this.libroService =  libroService;
+        this.socioService = socioService;
+        this.prestamoService = prestamoService;
     }
 
     // Menús delegados desde Main

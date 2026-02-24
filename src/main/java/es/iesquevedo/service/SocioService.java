@@ -9,7 +9,7 @@ import java.util.Optional;
 public class SocioService {
     private final SocioRepository repo;
 
-    public SocioService() {
+    public SocioService(SocioRepository repo) {
         this.repo = new SocioRepository();
     }
 

@@ -9,7 +9,7 @@ import java.util.Optional;
 public class LibroService {
     private final LibroRepository repo;
 
-    public LibroService() {
+    public LibroService(LibroRepository repo) {
         this.repo = new LibroRepository();
     }
 
